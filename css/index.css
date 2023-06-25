@@ -11,6 +11,8 @@ body, html{
 
 }
 
+
+/* animate the background */
 @keyframes animate-grad{
 
     0%{
@@ -34,6 +36,8 @@ body, html{
     animation: animate-grad 15s ease infinite;
 }
 
+
+/* basic formatting */
 .maintext{
 
     text-align:center;
@@ -45,10 +49,27 @@ body, html{
 
 }
 
+
+/* business to do with making images appear */
 span:hover{
 
     color:#111;
-    animation: pulse
+    cursor: pointer;
 
 }
+
+.fadein {
+
+    opacity: 0;
+    transition: opacity 250ms ease-in;
+
+}
+
+.fadein.appear {
+
+    opacity: 1;
+
+}
+
+
 

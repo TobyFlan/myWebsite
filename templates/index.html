@@ -10,14 +10,38 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
         <link href="../css/index.css" rel="stylesheet">
+        <script type="text/javascript" src="../js/index.js"></script>
 
     </head>
 
     <body class="grad-back">
-        <div class="maintext"><span>Toby</span></div>
-        <div class="maintext"><span>About</span></div>
-        <div class="maintext"><span>Projects</span></div>
-        <div class="maintext"><span>Contact</span></div>
+        
+        <div class="maintext">
+            <span 
+                id="tobyImage"
+                onmouseover="showImage('tobyImage','../resources/images/Toby_portrait.png')"
+                onmouseout="hideImage('tobyImage')"
+                >
+                Toby
+            </span>
+        </div>
+        <div class="maintext">
+            <span 
+                id="aboutImage"
+                onmouseover="showImage('aboutImage','../resources/images/magnifying_glass.png')"
+                onmouseout="hideImage('aboutImage')"
+                >
+                About
+            </span>
+        </div>
+        <div class="maintext">
+            <span>Projects</span>
+        </div>
+        <div class="maintext">
+            <span>Contact</span>
+        </div>
     </body>
+
+
 
 </html>
