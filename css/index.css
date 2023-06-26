@@ -61,6 +61,13 @@ body, html{
 
 }
 
+a{
+
+    text-decoration: none;
+    color:whitesmoke;
+
+}
+
 
 
 /* business to do with making images appear */
