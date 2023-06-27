@@ -5,8 +5,8 @@ function showContent(content){
     const data = document.getElementById(content);
 
 
-    //must know if it needs to grow or shrink on click
-    if(data.style.zIndex == 0){
+    //must know if it needs to grow or shrink on click using zindex as a storage variable
+    if(data.style.zIndex == 0){ //must be grown
 
         let height = 0;
 
@@ -25,9 +25,7 @@ function showContent(content){
     
             console.log(height);
     
-            data.style.height = height + "vh";
-            data.style.maxHeight = height + "vh";
-            
+            data.style.height = height + "vh";            
     
         }, 10);
 
@@ -52,11 +50,9 @@ function showContent(content){
             console.log(height);
     
             data.style.height = height + "vh";
-            data.style.maxHeight = height + "vh";
     
         }, 10);
 
     }
-
 
 }

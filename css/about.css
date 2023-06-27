@@ -54,7 +54,7 @@ body, html{
     font-size: max(4.5vh, 11px);
     margin: 0 auto;
     padding: 10px;
-    color: white;
+    color: #111;
     text-align:center;
 
 }
@@ -79,7 +79,6 @@ h1{
 .hidden-content{
 
     height: 0vh;
-    max-height: 0vh;
     background:linear-gradient(-70deg, #ffcc99, #ff99ff,#99ddff, whitesmoke );
     background-size: 400% 400%;
     animation: animate-grad 25s ease infinite;
