@@ -11,6 +11,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
         <link href="../css/about.css" rel="stylesheet">
+        <script type="text/javascript" src="../js/about.js"></script>
 
     </head>
 
@@ -24,9 +25,42 @@
     </div>
 
 
-    <h1>Introduction</h1>
-    <h1>Fav foods</h1>
-    <h1>Fav films</h1>
+    <h1 
+        onclick="showContent('introSection')"
+        >
+        Introduction
+    </h1>
+
+    <div class="hidden-content" id="introSection">
+
+        <p class="hidden-stuff">this is a hidden section!</p>
+
+    </div>
+
+    <h1 
+        onclick="showContent('section2')"
+        >
+        fav foods
+    </h1>
+
+    <div class="hidden-content" id="section2">
+
+        <p class="hidden-stuff">THESE ARE MY FAVOURITE FOODS</p>
+
+    </div>
+
+    <h1 
+        onclick="showContent('section3')"
+        >
+        fav films
+    </h1>
+
+    <div class="hidden-content" id="section3">
+
+        <p class="hidden-stuff">THESE ARE MOST CERTAINLY MY MOST FAVOURITE FILMS</p>
+        <p class="hidden-stuff">THESE ARE MOST CERTAINLY MY MOST FAVOURITE FILMS</p>
+
+    </div>
 
     
 
