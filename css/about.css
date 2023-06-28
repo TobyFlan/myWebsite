@@ -84,11 +84,14 @@ h1{
     animation: animate-grad 25s ease infinite;
     overflow:hidden;
     overflow-y:auto;
+    max-width: 60%;
+    margin-left: 20%;
 
 }
 
 .hidden-stuff{
 
     position: relative;
+    text-align: center;
 
 }
