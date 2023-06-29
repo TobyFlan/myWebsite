@@ -84,14 +84,31 @@ h1{
     animation: animate-grad 25s ease infinite;
     overflow:hidden;
     overflow-y:auto;
-    max-width: 60%;
-    margin-left: 20%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 
 }
 
-.hidden-stuff{
+.hidden-box{
 
-    position: relative;
-    text-align: center;
+    padding: 1vh 1vw 1vh 1vw;
+    background-color: #111;
+    width: 80vw;
+    height:23vh;
+    margin: 0.5vw;
 
 }
+
+.hidden-box-small{
+
+    background-color: #111;
+    width: 20vw;
+    height:25vh;
+    margin: 0 0.5vw;
+
+}
+
+
+
+

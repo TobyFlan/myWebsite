@@ -1,4 +1,4 @@
-function showContent(content){
+function showContent(content, setHeight){
 
     console.log("was clicked!")
 
@@ -12,7 +12,7 @@ function showContent(content){
 
         const interval = setInterval(()=>{
     
-            if(height >= 30){
+            if(height >= setHeight){
     
                 data.style.zIndex = 10;
     
@@ -33,7 +33,7 @@ function showContent(content){
 
     else{    //else, we shrink it out of view
 
-        let height = 30;
+        let height = setHeight;
 
         const interval = setInterval(()=>{
     
