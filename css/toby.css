@@ -40,7 +40,7 @@ body, html{
     position: relative;
     top: 0;
     left: 0;
-    background: linear-gradient(-70deg, #ffcc99, #ff99ff,#99ddff, whitesmoke );
+    background:linear-gradient(-70deg, #ffcc99, #ff99ff,#99ddff, whitesmoke );
     background-size: 400% 400%;
     width: 100%;
     height:20vh;
@@ -58,4 +58,58 @@ body, html{
     text-align:center;
 
 }
+
+h1{
+
+    text-align: center;
+    background:linear-gradient(-70deg, #ffcc99, #ff99ff,#99ddff, whitesmoke );
+    background-size: 400% 400%;
+    animation: animate-grad 25s ease infinite;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: max(4.5vh, 11px);
+    cursor: pointer;
+    display: block;
+
+}
+
+
+/* drop down menus */
+.hidden-content{
+
+    height: 0vh;
+    background:linear-gradient(-70deg, #ffcc99, #ff99ff,#99ddff, whitesmoke );
+    background-size: 400% 400%;
+    animation: animate-grad 25s ease infinite;
+    overflow:hidden;
+    overflow-y:auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.hidden-box{
+
+    padding: 1vh 1vw 1vh 1vw;
+    background-color: transparent;
+    width: 80vw;
+    height:23vh;
+    margin: 0.5vw;
+    color: #111;
+
+}
+
+.hidden-box-small{
+
+    background-color: #111;
+    width: 20vw;
+    height:25vh;
+    margin: 0 0.5vw;
+
+}
+
+
+
 
