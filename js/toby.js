@@ -4,7 +4,7 @@ function showContent(content, setHeight){
 
     const data = document.getElementById(content);
 
-
+    data.style.overflowY = "hidden";
     //must know if it needs to grow or shrink on click using zindex as a storage variable
     if(data.style.zIndex == 0){ //must be grown
 
@@ -15,7 +15,7 @@ function showContent(content, setHeight){
             if(height >= setHeight){
     
                 data.style.zIndex = 10;
-    
+                data.style.overflowY = "auto";
                 clearInterval(interval);
                 return;
     

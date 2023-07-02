@@ -59,6 +59,17 @@ body, html{
 
 }
 
+.banner-subtitle{
+
+    font-size: max(2vh, 5px);
+    margin: 0 auto;
+    padding: 10px;
+    color: #111;
+    text-align:center;
+
+
+}
+
 h1{
 
     text-align: center;
@@ -83,7 +94,7 @@ h1{
     background-size: 400% 400%;
     animation: animate-grad 25s ease infinite;
     overflow:hidden;
-    overflow-y:auto;
+    overflow-y:hidden;
     display:flex;
     justify-content: center;
     align-items: center;
