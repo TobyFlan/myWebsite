@@ -1,3 +1,17 @@
+
+//function for preloading images to remove delay when opening a menu
+function preload_image(im_url){
+    let img = new Image();
+    img.src = im_url;
+
+    console.log("preloaded image!");
+
+}
+  
+preload_image("../resources/images/resilience.png");
+preload_image("../resources/images/leadership.png");
+
+
 function showContent(content, setHeight){
 
     console.log("was clicked!")
