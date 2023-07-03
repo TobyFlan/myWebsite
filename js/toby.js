@@ -12,6 +12,7 @@ preload_image("../resources/images/resilience.png");
 preload_image("../resources/images/leadership.png");
 preload_image("../resources/images/creative.png");
 preload_image("../resources/images/adabtable.png");
+preload_image("../resources/images/teamwork.png");
 
 
 function showContent(content, setHeight){
