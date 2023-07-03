@@ -11,6 +11,7 @@ function preload_image(im_url){
 preload_image("../resources/images/resilience.png");
 preload_image("../resources/images/leadership.png");
 preload_image("../resources/images/creative.png");
+preload_image("../resources/images/adabtable.png");
 
 
 function showContent(content, setHeight){
