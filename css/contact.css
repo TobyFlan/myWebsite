@@ -44,27 +44,27 @@ body, html{
     width: 100%;
     height: 100vh;
     animation: animate-grad 25s ease infinite;
+
 }
 
+.banner-content{
 
-/* basic formatting */
-.maintext{
-
+    font-size: max(4.5vh, 30px);
+    margin: 0 auto;
+    padding: 10px;
+    color: #111;
     text-align:center;
-    color:#111;
-    font-size: 5.5vw;
-    /* line-height:15vh; */
-    padding: min(3vw, 2.5vh);
-    
 
 }
 
 .image-section{
 
     display:flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
+    position: relative;
+    top: 20vh;
 
 }
 
@@ -72,10 +72,10 @@ body, html{
 
     padding: 1vh 1vw 1vh 1vw;
     background-color: transparent;
-    height: max(25vw,25vh);
-    width: max(25vw,25vh);
+    height: max(20vw,20vh);
+    width: max(20vw,20vh);
     margin: 0.5vw;
-    background-color: #111;
+    background-color: transparent;
 
 }
 
