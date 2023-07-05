@@ -76,8 +76,19 @@ body, html{
     width: max(20vw,20vh);
     margin: 0.5vw;
     background-color: transparent;
+    opacity:1;
+    cursor: pointer;
+    text-decoration: none;
 
 }
+
+.image-box:hover{
+
+    opacity:0.5;
+
+}
+
+
 
 
 
