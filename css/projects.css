@@ -126,13 +126,22 @@ body, html{
 
 .project-image-slim{
 
+    position: relative;
+    left:100px;
+    top:100px;
+    width:100px;
+    height:100px;
+
 }
 
 .project-header-slim{
+
+    position: relative;
 
 }
 
 .project-text-slim{
 
+    position: relative;
 
 }
