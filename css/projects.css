@@ -107,5 +107,32 @@ body, html{
     font-size: 64px;
     color: #111;
     top:-45px;
+    white-space: nowrap;
+
+}
+
+.project-text-wide{
+
+    position: absolute;
+    left:1vw;
+    font-size:16px;
+    color:#111;
+    top:100px;
+
+}
+
+
+/* want window to change layout to this once it has been shrunk in the x axis */
+
+.project-image-slim{
+
+}
+
+.project-header-slim{
+
+}
+
+.project-text-slim{
+
 
 }
