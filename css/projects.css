@@ -78,6 +78,7 @@ body, html{
 /* css for project banners */
 .project-banner{
 
+    position: relative;
     background:linear-gradient(-70deg, #ffcc99, #ff99ff,#99ddff, whitesmoke );
     background-size: 400% 400%;
     width: 100%;
@@ -87,8 +88,24 @@ body, html{
 
 }
 
-.project-image{
+.project-image-wide{
 
+    position: absolute;
+    top: -100px;
+    left:10vw;
+    width: 280px;
+    height: 200px;
+    overflow: hidden;
     background-color: whitesmoke;
+
+}
+
+.project-header-wide{
+
+    position: absolute;
+    left:calc(10vw + 300px);
+    font-size: 64px;
+    color: #111;
+    top:-45px;
 
 }
