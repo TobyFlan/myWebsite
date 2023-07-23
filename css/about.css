@@ -73,6 +73,13 @@ body, html{
 /* stuff for main text box */
 /* read somewhere to build for mobile first, then add the if case for desktop so that is what i am going to do */
 
+.align-container{
+
+    display: flex;
+    flex-direction: column;
+
+}
+
 .main-box{
 
     position: relative;
@@ -123,9 +130,83 @@ body, html{
 
 }
 
-
 .break-bottom{
 
     margin-top:5vw;
 
 }
+
+/* want window to change layout to this once it has grown to desktop size*/
+@media screen and (min-width: 950px){
+
+    .align-container{
+
+        flex-direction: row;
+
+    }
+
+    .main-box{
+
+        position: relative;
+        background:linear-gradient(-70deg, #ffcc99, #ff99ff,#99ddff, whitesmoke );
+        background-size: 400% 400%;
+        width: 20vw;
+        min-height:65vh;
+        margin-top:115px;
+        margin-left: 2.5vw;
+        margin-right: 2.5vw;
+        left:-0.5vw;
+        animation: animate-grad 25s ease infinite;
+    
+    
+    }
+    
+    .main-header{
+    
+        position: absolute;
+        left:calc(16px + 32px + 5px);
+        font-size: 32px;
+        top:-78px;
+        text-align: center;
+        left: 50%;
+        transform: translateX(-50%);
+    
+        /* just for colour formatting */
+        background:linear-gradient(-70deg, #ffcc99, #ff99ff,#99ddff, whitesmoke );
+        background-size: 400% 400%;
+        animation: animate-grad 25s ease infinite;
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        white-space: nowrap;
+    
+    }
+    
+    .main-text{
+    
+        color:#111;
+        padding:5px 5px 5px 5px;
+        font-size:11px;
+    
+    }
+    
+    .main-image{
+    
+        position: absolute;
+        background-color: whitesmoke;
+        height:48px;
+        width:48px;
+        top:-105px;
+        left: calc(50% - 2px);
+        transform: translateX(-50%);
+    
+    }
+
+    .break-bottom{
+
+        margin-top:0vw;
+    
+    }
+
+}
+
