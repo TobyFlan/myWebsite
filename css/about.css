@@ -123,7 +123,11 @@ body, html{
 .main-image{
 
     position: absolute;
-    background-color: whitesmoke;
+    
+    background:linear-gradient(-70deg, #ffcc99, #ff99ff,#99ddff, whitesmoke );
+    background-size: 400% 400%;
+    animation: animate-grad 25s ease infinite;
+
     height:48px;
     width:48px;
     top:-56px;
@@ -193,7 +197,11 @@ body, html{
     .main-image{
     
         position: absolute;
-        background-color: whitesmoke;
+
+        background:linear-gradient(-70deg, #ffcc99, #ff99ff,#99ddff, whitesmoke );
+        background-size: 400% 400%;
+        animation: animate-grad 25s ease infinite;
+
         height:48px;
         width:48px;
         top:-105px;
