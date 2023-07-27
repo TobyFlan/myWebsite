@@ -14,8 +14,8 @@ body, html{
     height: 100vh;
     margin: 0vh;
     max-width: 100vw;
-    font: 400 0.8vw/1.8 "computer_speak_v0.3regular";
-    font-size: 0.8vw;
+    font: 400 64px/1.8 "computer_speak_v0.3regular";
+    font-size: 64px;
     background-color: #111;
 
 }
@@ -43,7 +43,7 @@ body, html{
     background:linear-gradient(-70deg, #ffcc99, #ff99ff,#99ddff, whitesmoke );
     background-size: 400% 400%;
     width: 100%;
-    height:20vh;
+    height:160px;
     min-height:50px;
     animation: animate-grad 25s ease infinite;
 
@@ -51,7 +51,7 @@ body, html{
 
 .banner-content{
 
-    font-size: max(4.5vh, 11px);
+    font-size: max(36px, 11px);
     margin: 0 auto;
     padding: 10px;
     color: #111;
@@ -61,7 +61,7 @@ body, html{
 
 .banner-subtitle{
 
-    font-size: max(2vh, 5px);
+    font-size: max(16px, 5px);
     margin: 0 auto;
     padding: 10px;
     color: #111;
@@ -79,7 +79,7 @@ h1{
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: max(4.5vh, 11px);
+    font-size: 48px;
     cursor: pointer;
     display: block;
 
@@ -106,7 +106,7 @@ h1{
     padding: 1vh 1vw 1vh 1vw;
     background-color: transparent;
     width: 80vw;
-    height:23vh;
+    height:153.3px;
     margin: 0.5vw;
     color: #111;
 
@@ -115,14 +115,14 @@ h1{
 .hidden-box-small{
 
     background-color: transparent;
-    height: 25vh;
+    height: 153.3px;
     margin: 0 0.5vw;
 
 }
 
 p{
 
-    font-size:max(0.8vw, 8px);
+    font-size:max(1vw, 10px);
 
 }
 

@@ -1,20 +1,4 @@
 
-//function for preloading images to remove delay when opening a menu
-function preload_image(im_url){
-    let img = new Image();
-    img.src = im_url;
-
-    console.log("preloaded image!");
-
-}
-  
-preload_image("../resources/images/resilience.png");
-preload_image("../resources/images/leadership.png");
-preload_image("../resources/images/creative.png");
-preload_image("../resources/images/adabtable.png");
-preload_image("../resources/images/teamwork.png");
-
-
 function showContent(content, setHeight){
 
     console.log("was clicked!")
@@ -38,11 +22,11 @@ function showContent(content, setHeight){
     
             }
     
-            height = 1 + height;
+            height = 10 + height;
     
             console.log(height);
     
-            data.style.height = height + "vh";            
+            data.style.height = height + "px";            
     
         }, 10);
 
@@ -62,11 +46,11 @@ function showContent(content, setHeight){
     
             }
     
-            height = height - 1;
+            height = height - 10;
     
             console.log(height);
     
-            data.style.height = height + "vh";
+            data.style.height = height + "px";
     
         }, 10);
 
