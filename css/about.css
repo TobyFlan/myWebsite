@@ -86,7 +86,7 @@ body, html{
     background:linear-gradient(-70deg, #ffcc99, #ff99ff,#99ddff, whitesmoke );
     background-size: 400% 400%;
     width: 90%;
-    height:150px;
+    min-height:150px;
     margin-top:100px;
     animation: animate-grad 25s ease infinite;
     left:5%;
@@ -155,7 +155,7 @@ body, html{
         background:linear-gradient(-70deg, #ffcc99, #ff99ff,#99ddff, whitesmoke );
         background-size: 400% 400%;
         width: 20vw;
-        min-height:65vh;
+        height:65vh;
         margin-top:115px;
         margin-left: 2.5vw;
         margin-right: 2.5vw;
