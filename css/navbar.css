@@ -1,0 +1,61 @@
+.navbar-button{
+
+    position: fixed;
+    top:10px;
+    left:10px;
+    z-index: 999;
+    background-color: transparent;
+    cursor: pointer;
+    width: 50px;
+
+}
+
+.navbar-icon{
+
+    position: fixed;
+    z-index: 99;
+    width: 50px;
+
+}
+
+.navbar{
+
+    position: fixed;
+    top:10px;
+    left:10px;
+    width:200px;
+    background-color: rgba(0, 0, 0, 0.99);
+    padding:10px;
+    display:none;
+    z-index: 99;
+
+}
+
+.show{
+
+    display: block;
+
+}
+
+.navbar-button.active #navbar-icon{
+
+    content: url(../resources/images/menu_button_pressed.png);
+
+}
+
+.navbar-item{
+
+    display: block;
+    margin-left:50px;
+    color: #4f4f4f;
+    text-decoration: none;
+    padding:4px;
+    font-size:24px;
+    
+}
+
+.navbar-item:hover{
+
+    color: #808080;
+
+}
