@@ -13,9 +13,29 @@
         <link href="../css/contact.css" rel="stylesheet">        
         <script type="text/javascript" src="../js/contact.js"></script>
 
+        <!-- styling for navbar -->
+        <link href="../css/navbar.css" rel="stylesheet">    
+        <script type="text/javascript" src="../js/navbar.js"></script>
+
     </head>
 
     <body class="grad-back" onload="setLayout('imgLayout')" onresize="setLayout('imgLayout')">
+
+        <!-- button that reveals navbar -->
+        <div class="navbar-button" onclick="toggleNavbar()">
+            <img class="navbar-icon" id="navbar-icon" src="../resources/images/menu_button.png" alt="Menu">
+        </div>
+
+        <!-- navbar -->
+        <div class="navbar">
+
+            <a class="navbar-item" href="index.html">Home</a>
+            <a class="navbar-item" href="toby.html">Toby</a>
+            <a class="navbar-item" href="about.html">About</a>
+            <a class="navbar-item" href="projects.html">Projects</a>
+            <a class="navbar-item" href="contact.html">Contact</a>
+
+        </div>
 
         <div class="banner-content">
             <span>CONTACT ME!</span>
