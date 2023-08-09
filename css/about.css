@@ -155,7 +155,7 @@ body, html{
         background:linear-gradient(-70deg, #ffcc99, #ff99ff,#99ddff, whitesmoke );
         background-size: 400% 400%;
         width: 20vw;
-        height:65vh;
+        min-height:65vh;
         margin-top:115px;
         margin-left: 2.5vw;
         margin-right: 2.5vw;
@@ -190,7 +190,7 @@ body, html{
     
         color:#111;
         padding:5px 5px 5px 5px;
-        font-size:11px;
+        font-size:max(11px, 0.8vw);
     
     }
     
