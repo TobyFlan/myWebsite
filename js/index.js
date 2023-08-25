@@ -1,8 +1,5 @@
 function showImage(imgId, imgSrc){
 
-    console.log("Mouse is over text");
-    console.log("\tImgID = " + imgId + " Image URL = " + imgSrc);
-
     const image = document.getElementById(imgId);
     const showImage = new Image();
 
@@ -40,7 +37,6 @@ function fadeIn(image){
 
 function hideImage(imgId){
 
-    console.log("Mouse is off text");
     const image = document.getElementById(imgId);
     while(image.childElementCount > 0){
         image.removeChild(image.lastChild);

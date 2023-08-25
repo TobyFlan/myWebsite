@@ -1,8 +1,6 @@
 
 function showContent(content, setHeight){
 
-    console.log("was clicked!")
-
     const data = document.getElementById(content);
 
     data.style.overflowY = "hidden";
@@ -36,7 +34,7 @@ function showContent(content, setHeight){
 
         let height = setHeight;
 
-        const interval = setInterval(()=>{
+        const interval = setInterval(() => {
     
             if(height <= 0){
     
