@@ -1,5 +1,3 @@
 # myWebsite
 
-will update readme later
-
-much later
+A personal project prtfolio website for Toby Flanagan.
